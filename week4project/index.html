@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="bootstrap.css" rel="stylesheet" type="text/css" >
+	<title></title>
+	<style type="text/css">
+		
+		body{
+			
+		}
+	</style>
+	
+</head>
+<body>
+
+	<table class="table">
+		<thead>
+		<tr>
+		<th scope="col">Subject</th>
+		<th scope="col">Score</th>
+		<th scope="col">Grade</th>
+		</tr>
+		</thead>
+
+		<tr>
+			
+			<td>English</td>
+			<td><input type="number" name="" id="eng" onmouseout="getGradeEngScore()"></td>
+			<td><input type="" value="" name="" id="engGrade" ></td>
+		</tr>
+
+		<tr>
+			
+			<td>Maths</td>
+			<td><input type="number" name="" id="math" onmouseout="getGradeMathScore()"></td>
+			<td><input type="" name="" id="mathGrade"></td>
+		</tr>
+
+		<tr>
+			
+			<td>Biology</td>
+			<td><input type="number" name="" id="bio" onmouseout="getGradeBioScore()"></td>
+			<td><input type="" name="" id="bioGrade"></td>
+		</tr>
+
+		<tr>
+			
+			<td>French</td>
+			<td><input type="number" name="" id="french" onmouseout="getGradeFrenchScore()"></td>
+			<td><input type="" name="" id="frenchGrade"></td>
+		</tr>
+
+		<tr>
+			
+			<td>Chemistry</td>
+			<td><input type="number" name="" id="chem" onmouseout="getGradeChemistryScore()"></td>
+			<td><input type="" name="" id="chemGrade"></td>
+		</tr>
+
+		<tr>
+            <td><button type="button" class="btn btn-primary" onclick="allFunction()">Get Result</button></td>
+		</tr>
+
+		<tr>
+			
+			<td><h1>Total</h1></td>
+			<td ><span id="totals"></span></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			
+			<td>Remarks</td>
+			<td><p id="remark"></p></td>
+			<td id="image"> <img src=""></td>
+		</tr>
+
+		<tr>
+			
+			<td>Average</td>
+			<td><span id="ave" ></span></td>
+			<td></td>
+		</tr>
+
+
+
+
+	</table>
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
